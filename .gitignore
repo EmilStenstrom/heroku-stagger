@@ -1,4 +1,5 @@
 /models/
 /stagger/
+/target/
 heroku-stagger.sublime-project
 heroku-stagger.sublime-workspace
