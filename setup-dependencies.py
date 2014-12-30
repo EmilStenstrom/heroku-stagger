@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import bz2
 import os
 import tarfile
@@ -46,5 +48,6 @@ def get_and_unzip_models():
 
     os.remove(filename)
 
+print "setup-dependencies.py - Installing dependencies..."
 get_and_unzip_stagger()
 get_and_unzip_models()
